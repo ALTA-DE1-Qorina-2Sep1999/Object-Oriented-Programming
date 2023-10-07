@@ -25,4 +25,4 @@ class Ongkos():
 
 if __name__ == "__main__":
     volume = Ongkos(5, 2, 4, 1)
-    print("Harga: ", volume.ongkir())
+    print(f"Harga: Rp {volume.ongkir()}")
